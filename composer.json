@@ -34,15 +34,15 @@
     "require": {
         "php": "^5.6|^7.0",
 
-        "sylius/user": "^0.19",
-        "sylius/resource-bundle": "^0.19",
-        "sylius/mailer-bundle": "^0.19",
-        "symfony/framework-bundle": "^2.8",
+        "sylius/user": "dev-symfony_3_compatibility",
+        "sylius/resource-bundle": "dev-symfony_3_compatibility",
+        "sylius/mailer-bundle": "dev-symfony_3_compatibility",
+        "symfony/framework-bundle": "^3.0",
         "webmozart/assert": "^1.0"
     },
     "require-dev": {
         "phpspec/phpspec": "^2.4",
-        "symfony/form": "^2.8",
+        "symfony/form": "^3.0",
         "hwi/oauth-bundle": "~0.3"
     },
     "suggest": {
